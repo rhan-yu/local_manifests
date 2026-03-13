@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="arpi" fetch="ssh://git@github.com/rhan-yu"/>
+	<remove-project name="platform/external/mesa3d"/>
+	<project path="external/mesa3d" name="external_mesa3d" revision="v3d-24.3" remote="arpi"/>
+	<remove-project name="platform/packages/apps/TvSettings"/>
+	<project path="packages/apps/TvSettings" name="packages_apps_TvSettings" revision="arpi-15" remote="arpi"/>
+	<project path="hardware/arpi" name="hardware_arpi" revision="arpi-15" remote="arpi"/>
+	<project path="device/arpi/rpi5" name="device_arpi_rpi5" revision="arpi-15" remote="arpi"/>
+	<project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="arpi-14" remote="arpi"/>
+</manifest>
